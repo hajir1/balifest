@@ -1,0 +1,63 @@
+{
+  "nama_model": "LogisticRegression",
+  "fitur": [
+    "kehadiran_persen",
+    "rata_nilai",
+    "tren_turun",
+    "waktu_tempuh_menit",
+    "jarak_km",
+    "penerima_bantuan",
+    "pekerjaan_ortu_rentan",
+    "tinggal_bukan_ortu",
+    "ikut_bekerja",
+    "jumlah_saudara",
+    "laporan_perundungan",
+    "jumlah_pelanggaran",
+    "jenjang_sma_smk"
+  ],
+  "bobot": [
+    -0.122457,
+    -0.037546,
+    0.260392,
+    0.022611,
+    -0.060567,
+    -0.59117,
+    0.766829,
+    0.626866,
+    0.824933,
+    0.081811,
+    1.033122,
+    0.105063,
+    0.585443
+  ],
+  "intercept": 12.181886,
+  "rata_rata": [
+    90.761375,
+    81.83825,
+    0.22125,
+    23.87125,
+    4.429875,
+    0.2225,
+    0.23375,
+    0.163333,
+    0.202083,
+    1.8625,
+    0.078333,
+    0.356667,
+    0.487083
+  ],
+  "threshold": 0.5,
+  "metrik": {
+    "accuracy": 0.815,
+    "precision": 0.442,
+    "recall": 0.793,
+    "f1": 0.568,
+    "roc_auc": 0.882,
+    "confusion_matrix": {
+      "TN": 416,
+      "FP": 92,
+      "FN": 19,
+      "TP": 73
+    }
+  }
+}

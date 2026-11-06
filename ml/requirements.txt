@@ -1,0 +1,5 @@
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.5
+# Opsional: hanya untuk mengecek rumus SHAP manual sama dengan library shap
+shap>=0.46
